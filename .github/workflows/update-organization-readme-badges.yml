@@ -28,6 +28,8 @@ jobs:
         with:
           organization: ${{ github.repository_owner }}
           token: ${{ steps.app-token.outputs.token }} # recommend to use a GitHub App and not a PAT
+          color: blue
+          label_color: 333
     
       - name: write to job summary
         run: |
