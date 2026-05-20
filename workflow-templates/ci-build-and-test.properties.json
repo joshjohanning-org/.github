@@ -1,0 +1,6 @@
+{
+  "name": "CI Build and Test",
+  "description": "A starter CI workflow template for building and testing.",
+  "iconName": "octicon:rocket",
+  "categories": ["CI"]
+}
