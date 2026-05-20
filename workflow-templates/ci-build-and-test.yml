@@ -1,0 +1,20 @@
+name: CI Build and Test
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build
+        run: echo "Add your build steps here"
+
+      - name: Test
+        run: echo "Add your test steps here"
